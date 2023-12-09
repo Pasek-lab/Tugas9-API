@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "957ae75d-cf35-4db5-8275-d78b240f1cd9",
+		"name": "GreenGarden",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31681502"
+	},
+	"item": [
+		{
+			"name": "TambahProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name_product",
+							"value": "Tulip",
+							"type": "text"
+						},
+						{
+							"key": "desc_product",
+							"value": "Tanaman Bunga",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "6000",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_seller",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_category",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img_product",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Downloads/r10.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditProdutc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name_product",
+							"value": "Tulip",
+							"type": "text"
+						},
+						{
+							"key": "desc_product",
+							"value": "Tanaman Bunga",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "6000",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_seller",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_category",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img_product",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Downloads/frame3.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HapusProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name_product",
+							"value": "Tulip",
+							"type": "text"
+						},
+						{
+							"key": "desc_product",
+							"value": "Tanaman Bunga",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "6000",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_seller",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_category",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img_product",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Downloads/frame3.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HapusProduct Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name_product",
+							"value": "Tulip",
+							"type": "text"
+						},
+						{
+							"key": "desc_product",
+							"value": "Tanaman Bunga",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "6000",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_seller",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_category",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img_product",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Downloads/frame3.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthenticationProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name_product",
+							"value": "Tulip",
+							"type": "text"
+						},
+						{
+							"key": "desc_product",
+							"value": "Tanaman Bunga",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "6000",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_seller",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_category",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img_product",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Downloads/frame3.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProduct",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name_product",
+							"value": "Tulip",
+							"type": "text"
+						},
+						{
+							"key": "desc_product",
+							"value": "Tanaman Bunga",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "6000",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_seller",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_category",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img_product",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Downloads/r10.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
